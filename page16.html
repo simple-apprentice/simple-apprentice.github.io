@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+        </div>
+    </div>
+    <!-- ./Preloader -->
+    
+   
+    <!-- about -->
+    <div class="section modal-content" id="about">
+        <div class="container">
+            <div class="portfolio-padding">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>
+                        Mechanical Hand</h2>
+                    <div class="h-50">
+                    </div>
+                    <p class="text-justify"> This project is my undergraduate graduation project. In this system, <samp>5000</samp> gesture images with different backgrounds, skin colors, and illumination were collected and labeled with labelimg. The self-made data set was divided into a training, verification, and test set. The YOLOv<samp>5</samp> model was used to predict five gestures on the test set. Experimental results showed that 16 samples were trained each time. After <samp>100</samp> rounds of training, the model performance index is <samp>81.1</samp>% precision, <samp>81.4</samp>% recall, and <samp>0.531</samp> MAP. </p>
+                  <p class="text-justify">Based on the original YOLOv<samp>5</samp> model, attenuation learning rate and data enhancement methods are further introduced in this paper. The CBAM attention mechanism, multi-scale detection method, and Gaussian filtering are improved to improve the model's efficiency further. The improved model was tested on the same test set, and the experimental results showed that the model performance indexes were <samp>87.2</samp>% precision, <samp>84.1</samp>% recall, and <samp>0.564</samp> MAP. Through optimization, model accuracy improved by<samp> 6.1</samp>%, recall rate increased by <samp><span class="slideOutLeft">2.7</span></samp>%, and MAP improved by <samp>3.2</samp>%. Experimental tests show that the proposed enhanced method is feasible and can accurately recognize five basic gestures and further improve the performance of the model. </p>
+                    <p class="text-justify">Finally, the optimized model was deployed on the raspberry PI 4B development board, and the LFD-<samp>01 </samp>anti-blocking steering gear was used to build the bionic manipulator. Finally, the manipulator reproduction function was realized. </p>
+                  <br>
+                    <br> 
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+    
+    <!--DEMO01-->
+    <div id="animatedModal" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal">
+            <i class="ion-close-round"></i>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>
+                            Geschäfts Eines<br />
+                            Web-Studios</h2>
+                        <div class="h-50">
+                        </div>
+                        <p>
+                            Appropriately maintain standards compliant total linkage with cutting-edge action
+                            items. Enthusiastically create seamless synergy rather than excellent value. Quickly
+                            promote premium strategic theme areas vis-a-vis.</p>
+                        <p>
+                            Appropriately maintain standards compliant total linkage with cutting-edge action
+                            items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br />
+                        <img src="img/portfolio/1.png" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>
+                            Appropriately maintain standards compliant total linkage with cutting-edge action
+                            items. Enthusiastically create seamless synergy rather than excellent value. Quickly
+                            promote premium strategic theme areas vis-a-vis.</p>
+                        <p>
+                            Appropriately maintain standards compliant total linkage with cutting-edge action
+                            items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <!--  main script  -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
